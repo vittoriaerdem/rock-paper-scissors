@@ -10,3 +10,30 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 30vmin 15vmin 30vmin;
+  grid-template-rows: 10vmin 10vmin 30vmin 10vmin;
+}
+
+main * {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+main button {
+  grid-column: span 3;
+  margin: 2vmin;
+}
+
+#p-result, #c-result {
+  border: 2vmin solid white;
+  border-radius: 5vmin;
+  padding: 2vmin;
+}
+
+#p-result img, #c-result img {
+  width: 100%
+}
