@@ -12,5 +12,4 @@ const shootAudio = new Audio('http://soundbible.com/mp3/shooting_star-Mike_Koeni
 
 
 /*----- functions -----*/
-
-alert('ready!')
+hi
